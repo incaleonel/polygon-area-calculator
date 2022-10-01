@@ -17,7 +17,6 @@ class Rectangle:
     def get_picture(self):
         return (f"{'*' * self.width}\n" * self.height) if self.width <=50 and self.height <=50 else 'Too big for picture.'
     def get_amount_inside(self, shape):
-
         return int(self.width/shape.width) * int(self.height/shape.height) 
                     
 class Square(Rectangle):
