@@ -1,8 +1,1 @@
-class gatico:
-    def __init__(self,name):
-        self.name = name
-        
-        
-cp = gatico('pepe')
-
-print(cp)
+print(2/0)
